@@ -1,11 +1,12 @@
 # Hangman
 Word game to let user guess the word picked randomly from data-set. This is the question from MIT course 6.001.
+
 words.txt is text file serving as database to get list of words available. In this the words are seprated by single space.
 You need to set the directory if placing the word.txt in different folder.
-words are in lower letters. Use valid input as displayed/asked to enter.
+words are in lower case. Use valid input as displayed/asked to enter.
 
 # Hangman--Word to be guess by Computer
-Word game to let computer guess the word thought by user, if word not present in word.txt then it will ask to add.
+Word game to let computer guess the word thought by user, if word not present in Word_C.txt then it will ask to add.
 Please add valid word in lower case.
 Words_C.txt is text file serving as database to get list of words available. In this each word is in new line.
 
@@ -19,4 +20,4 @@ For testing purpose you can use below list and replacing the below line:-
               'company', 'problem', 'different', 'important', 'government']
               
 And adding # before below code:-
-#words = open("words_C.txt", "r")
+words = open("Words_C.txt", "r")
